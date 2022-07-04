@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendedor</title>
+    <link rel="stylesheet" href="./estilos/index.module.css">
+    <link rel="stylesheet" href="./estilos/formularios.module.css">
+    <link rel="stylesheet" href="./estilos/textos.module.css">
+</head>
+<body>
+
+    <div class="menu">
+        <div class="vendedor">
+            <h2>Área do Vendedor</h2>
+            <p>Vendedor: <strong>Nome do vendedor</strong></p>
+        </div>
+        <div class="pesquisa">
+            <form action="#" method="get">
+                <input type="text" name="pesquisar" id="pesquisar" placeholder="Pesquisar pelo produto">
+                <button type="submit">Pesquisar</button>
+            </form>
+        </div>
+        <div class="datahora">
+            <h2>12:00</h2>
+            <p>22.05.22</p>
+        </div>
+    </div>
+    <div class="corpo">
+        <div class="forms">
+            <div class="forminput">
+                <form action="#" method="post" class="post">
+                    
+                    <div class="formgeral">
+                        <div class="cliente">
+                            <p>Cliente</p>
+                            <div>
+                                <input type="text" name="cliente" id="cliente" class="cliente" placeholder="Insira o nome do cliente">
+                            </div>
+                            <p>Valor Pago pelo cliente</p>
+                            <div>
+                                <input type="number" name="valorcliente" id="valorcliente" class="valorcliente" placeholder="Insira o Valor pago pelo cliente">
+                            </div>
+                        </div>
+                        <div class="produto">
+                            <p>Nome do Produto</p>
+                            <select name="produto" id="produto">
+                                <option value="">Saco de Fuba</option>
+                                <option value="">Saco de Milho</option>
+                                <option value="">Saco de Arroz</option>
+                            </select>
+                            <p>Quantidade</p>
+                            <div>
+                                <input type="text" name="cliente" id="cliente" class="cliente" placeholder="Insira a quantidade do produto
+                                ">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="button">
+                        <button type="submit">Registrar a Compra</button>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
