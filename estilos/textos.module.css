@@ -5,6 +5,10 @@
 .menu h2{
     color: #FFB423;
 }
+.menu a{
+    color: #FFB423;
+    text-decoration: none;
+}
 .menu p{
     background-color: #FFB423;
     padding: .5em;
@@ -12,4 +16,20 @@
 }
 p{
     color: #1A1B2F;
+    font-size: 12pt;
+}
+span{
+    font-weight: 900;
+}
+.green{
+    color: green;
+    font-size: 14pt;
+}
+.yellow{
+    color: rgb(126, 126, 7);
+    font-size: 14pt;
+}
+.orange{
+    color: orange;
+    font-size: 14pt;
 }

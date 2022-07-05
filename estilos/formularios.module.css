@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     height: 50vh;
+    flex-direction: column;
 }
 .forms .forminput form.post{
     display: flex;
@@ -16,13 +17,13 @@ form.post{
     background-color: #fff;
     padding: 1em;
     width: 100%;
-    height: 50vh;
-    margin-top: 5em;
+    margin-top: 15em;
     border-radius: 5px;
 }
 form .formgeral{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 /*INPUTS*/
@@ -46,6 +47,18 @@ form .formgeral{
     margin-bottom: .5em;
     font-size: 11pt;
 }
+.corpo .btnimprimir input{
+    width: 100%;
+    cursor: pointer;
+    height: 3em;
+    border: none;
+    background-color: #FFB423;
+    font-size: 12pt;
+    color: #1A1B2F;
+}
+.btnimprimir input:hover{
+    background-color: #f7c258;
+}
 /*Selects*/
 select{
     width: 28.5em;
@@ -62,7 +75,7 @@ select{
 /*BOTÕES*/
 
 .corpo button{
-    width: 60em;
+    width: 100%;
     height: 3.5em;
     margin-top: 2em;
     font-size: 12pt;
@@ -73,6 +86,9 @@ select{
     border-radius: 5px;
     color: #FFB423;
 }
+.corpo button:hover{
+    background-color: #26273a;
+}
 .menu button{
     height: 2.5em;
     margin-left: 0;
@@ -80,4 +96,8 @@ select{
     color: #1A1B2F;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+.menu button:hover{
+    background-color: #f7c258;
 }
