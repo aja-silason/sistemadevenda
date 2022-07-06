@@ -38,6 +38,15 @@ form .formgeral{
     font-size: 11pt;
 }
 
+input{
+    width: 30em;
+    height: 2em;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: .5em;
+    margin-bottom: .5em;
+    font-size: 11pt;
+}
 .corpo input{
     width: 30em;
     height: 2em;
@@ -74,6 +83,21 @@ select{
 
 /*BOTÕES*/
 
+.btnlogin button{
+    width: 100%;
+    height: 3.5em;
+    margin-top: 2em;
+    font-size: 12pt;
+    padding: 0;
+    cursor: pointer;
+    background-color: #1A1B2F;
+    border: none;
+    border-radius: 5px;
+    color: #FFB423;
+}
+.btnlogin button:hover{
+    background-color: #26273a;
+}
 .corpo button{
     width: 100%;
     height: 3.5em;
