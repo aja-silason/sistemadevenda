@@ -2,7 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
     color: #000;
 }
-h1{
+h1,h2,h3,h4,h5,h6{
     color: #1A1B2F;
 }
 .menu h2{
@@ -16,7 +16,10 @@ h1{
     background-color: #FFB423;
     padding: .5em;
     color: #1A1B2F;
-}
+}/*
+.bodycards p{
+    color: #fff;
+}*/
 p{
     color: #1A1B2F;
     font-size: 12pt;
@@ -46,4 +49,58 @@ span{
 }
 .cima a:hover{
     background-color: rgb(196, 196, 196);
+}
+.middlecards .recibocard p{
+    font-size: 16pt;
+    margin-bottom: -10px;
+}
+.middlecards li{
+    color: #1A1B2F;
+    font-size: 12pt;
+    list-style: none;
+}
+.middlecards .descricaopagamento{
+    display: flex;
+    flex-direction: column;
+}
+.descricaopagamento .cliente{
+    display: flex;
+    justify-content: space-between;
+}
+.descricaopagamento .nos{
+    display: flex;
+    justify-content: space-between;
+}
+.nos .total{
+    font-size: 16pt;
+}
+.sidemenu li{
+    list-style: none;
+    font-size: 18pt;
+    padding: .5em;
+    color: #fff;
+    margin-bottom: .5em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 1em;
+    border-top-left-radius: 1em;
+    transition: 600ms;
+}
+.sidemenu li:hover{
+    background-color: #1A1B2F;
+}
+li.ativo{
+    background-color: #1A1B2F;
+}
+li:hover a{
+    transition: 600ms;
+    color: #c48509;
+}
+li.sair{
+    margin-top: 1em;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
 }

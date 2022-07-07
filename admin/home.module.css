@@ -1,0 +1,108 @@
+.conteiner{
+    display: flex;
+}
+.sidemenu{
+    background-color: #c48509;
+    width: 20%;
+}
+.sidebody{
+    background-color: #1A1B2F;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.logoadmin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}
+.menuadmin{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.3em;
+    align-items: center;
+}
+.bars{
+    padding-left: .5em;
+    color: #fff;
+    font-size: 30pt;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 600ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bars:hover{
+    color: #c48509;
+}
+.profilearea{
+    padding-right: .5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profilearea img{
+    border-radius: 50px;
+    width: 50px;
+}
+
+.bodycards{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+.smallcards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.smallcards .card{
+    background-color: #fff;
+    width: 50%;
+    border-radius: 5px;
+    padding: .5em;
+    margin: .5em;
+}
+.smallcards .card .headcard{
+    display: flex;
+    justify-content: space-between;
+}
+.middlecards{
+    display: flex;
+    justify-content: center;
+}
+.middlecards .recibocard{
+    background-color: #fff;
+    width: 70%;
+    border-radius: 5px;
+    padding: .5em;
+    margin: .5em;
+}
+.recibocard .headcard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recibocard button{
+    border: none;
+    background-color: #c48509;
+    cursor: pointer;
+    font-size: 12pt;
+    font-weight: bold;
+    height: 2em;
+    padding: .5em;
+    color: #1A1B2F;
+    border-radius: 5px;
+}
+.recibocard button:hover{
+    background-color: #e7a82a;
+}
+.middlecards .clientecard{
+    background-color: #fff;
+    width: 33%;
+    border-radius: 5px;
+    padding: .5em;
+    margin: .5em;
+}

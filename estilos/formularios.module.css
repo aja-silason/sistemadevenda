@@ -30,7 +30,16 @@ form .formgeral{
 
 .menu input{
     width: 30em;
-    height: 1.2em;
+    height: 2em;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: .5em;
+    margin-bottom: .5em;
+    font-size: 11pt;
+}
+.menuadmin input{
+    width: 30em;
+    height: 3em;
     border: 1px solid gray;
     border-radius: 5px;
     padding: .5em;
@@ -113,8 +122,9 @@ select{
 .corpo button:hover{
     background-color: #26273a;
 }
-.menu button{
-    height: 2.5em;
+.menu button, .menuadmin button{
+    height: 2.8em;
+    font-size: 12pt;
     margin-left: 0;
     background-color: #FFB423;
     color: #1A1B2F;
@@ -123,5 +133,8 @@ select{
     cursor: pointer;
 }
 .menu button:hover{
+    background-color: #f7c258;
+}
+.menuadmin button:hover{
     background-color: #f7c258;
 }
