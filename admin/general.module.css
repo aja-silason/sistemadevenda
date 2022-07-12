@@ -4,6 +4,7 @@
 .sidemenu{
     background-color: #c48509;
     width: 20%;
+    height: 100vh;
 }
 .sidebody{
     background-color: #1A1B2F;
@@ -20,7 +21,7 @@
 .menuadmin{
     display: flex;
     justify-content: space-between;
-    padding-top: 1.3em;
+    padding-top: .5em;
     align-items: center;
 }
 .bars{

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo Produto</title>
+    <link rel="stylesheet" href="../estilos/index.module.css">
+    <link rel="stylesheet" href="../estilos/formularios.module.css">
+    <link rel="stylesheet" href="../estilos/textos.module.css">
+    <link rel="stylesheet" href="./newproduto.module.css">
+    <link rel="stylesheet" href="./general.module.css">
+</head>
+<body>
+
+    <div class="conteiner">
+        <div class="sidemenu">
+            <div class="logoadmin">
+                <h1>Sr. Admin</h1>
+            </div>
+            <div class="listas">
+                <ul>
+                    <li class="ativo"><a href="#">Dashboard</a></li>
+                    <li><a href="#">Funcionário</a></li>
+                    <li><a href="#">Clientes</a></li>
+                    <li><a href="#">Recibos</a></li>
+                    <li><a href="./newproduto.html">Novo Produto</a></li>
+                    <li><a href="#">Definições</a></li>
+
+                    <li class="sair"><a href="../">Sair</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="sidebody">
+            
+            <div class="menuadmin">
+                <div class="bars">&LeftArrowRightArrow;</div>
+                <div class="searcharea">
+                    
+                    <form action="#" method="get">
+                        <input type="search" name="pesquisarrecibo" id="pesquisarrecibo" placeholder="Pesquisar Recibo">
+                        <button type="submit">Pesquisar</button>
+                    </form>
+
+                </div>
+                <div class="profilearea">
+                    <img src="../assets/profilepictures/default.jpg" alt="Imagem do Perfil">
+                </div>
+            </div>
+
+            <div class="conteudoprod">
+                
+
+                <div class="admin forminput">
+                    <form action="#" method="post" class="admin">
+                        
+                        <div class="formgeral">
+                            <div class="cliente">
+                                <p>Cliente</p>
+                                <div>
+                                    <input type="text" name="cliente" id="cliente" class="cliente" placeholder="Insira o nome do cliente">
+                                </div>
+                                <p>Valor Pago pelo cliente</p>
+                                <div>
+                                    <input type="number" name="valorcliente" id="valorcliente" class="valorcliente" placeholder="Insira o Valor pago pelo cliente">
+                                </div>
+                            </div>
+                            <div class="produtoadm">
+                                <p>Nome do Produto</p>
+                                <select name="produto" id="produto">
+                                    <option value="">Saco de Fuba</option>
+                                    <option value="">Saco de Milho</option>
+                                    <option value="">Saco de Arroz</option>
+                                </select>
+                                <p>Quantidade</p>
+                                <div>
+                                    <input type="text" name="cliente" id="cliente" class="cliente" placeholder="Insira a quantidade do produto
+                                    ">
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="buttonadm">
+                            <button type="submit">Registrar a Compra</button>
+                        </div>
+                    </form>
+                </div>
+
+
+
+                <div class="divviewprod"></div>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>

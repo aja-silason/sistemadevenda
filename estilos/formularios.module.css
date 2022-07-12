@@ -20,6 +20,10 @@ form.post{
     margin-top: 15em;
     border-radius: 5px;
 }
+form.admin{
+    background-color: none;
+    margin: 1em;
+}
 form .formgeral{
     display: flex;
     justify-content: space-between;
@@ -90,6 +94,17 @@ select{
     color: #FFB423;
 }
 
+.produtoadm select{
+    width: 28.5em;
+    height: 2.8em;
+    margin-bottom: .5em;
+    font-size: 12pt;
+    cursor: pointer;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #1A1B2F;
+}
 /*BOTÕES*/
 
 .btnlogin button{
