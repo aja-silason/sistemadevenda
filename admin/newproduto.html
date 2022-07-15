@@ -20,11 +20,11 @@
             </div>
             <div class="listas">
                 <ul>
-                    <li class="ativo"><a href="#">Dashboard</a></li>
+                    <li><a href="./home.html">Dashboard</a></li>
                     <li><a href="#">Funcionário</a></li>
                     <li><a href="#">Clientes</a></li>
                     <li><a href="#">Recibos</a></li>
-                    <li><a href="./newproduto.html">Novo Produto</a></li>
+                    <li class="ativo"><a href="#">Novo Produto</a></li>
                     <li><a href="#">Definições</a></li>
 
                     <li class="sair"><a href="../">Sair</a></li>
@@ -57,32 +57,28 @@
                         
                         <div class="formgeral">
                             <div class="cliente">
-                                <p>Cliente</p>
+                                <p>Nome do produto</p>
                                 <div>
-                                    <input type="text" name="cliente" id="cliente" class="cliente" placeholder="Insira o nome do cliente">
+                                    <input type="text" name="nomeproduto" id="nomeproduto" class="nomeproduto" placeholder="Insira o nome do produto">
                                 </div>
-                                <p>Valor Pago pelo cliente</p>
+                                <p>Imagem do produto</p>
                                 <div>
-                                    <input type="number" name="valorcliente" id="valorcliente" class="valorcliente" placeholder="Insira o Valor pago pelo cliente">
+                                    <input type="file" name="imagemproduto" id="imagemproduto" class="imagemproduto">
                                 </div>
                             </div>
                             <div class="produtoadm">
-                                <p>Nome do Produto</p>
-                                <select name="produto" id="produto">
-                                    <option value="">Saco de Fuba</option>
-                                    <option value="">Saco de Milho</option>
-                                    <option value="">Saco de Arroz</option>
-                                </select>
-                                <p>Quantidade</p>
+                                <p>Preço atual do Produto</p>
+                                    <input type="text" name="precoactualprod" id="precoactualprod" class="precoactualprod" placeholder="Insira o preço atual do produto">
+                                <p>Preço antigo do Produto</p>
                                 <div>
-                                    <input type="text" name="cliente" id="cliente" class="cliente" placeholder="Insira a quantidade do produto
+                                    <input type="text" name="precoantigoproduto" id="precoantigoproduto" class="precoantigoproduto" placeholder="Insira o preço antigo do produto
                                     ">
                                 </div>
                             </div>
                         </div>
     
                         <div class="buttonadm">
-                            <button type="submit">Registrar a Compra</button>
+                            <button type="submit">Registrar o Produto na Loja</button>
                         </div>
                     </form>
                 </div>

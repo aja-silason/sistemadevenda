@@ -20,6 +20,9 @@ h1,h2,h3,h4,h5,h6{
 .bodycards p{
     color: #fff;
 }*/
+.admin p{
+    color: #fff;
+}
 p{
     color: #1A1B2F;
     font-size: 12pt;

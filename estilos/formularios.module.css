@@ -81,6 +81,13 @@ input{
 .btnimprimir input:hover{
     background-color: #f7c258;
 }
+
+input[type=file]{
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
 /*Selects*/
 select{
     width: 28.5em;
@@ -133,6 +140,22 @@ select{
     border: none;
     border-radius: 5px;
     color: #FFB423;
+}
+.admin button{
+    width: 100%;
+    height: 3.5em;
+    margin-top: 2em;
+    font-size: 12pt;
+    font-weight: 600;
+    padding: 0;
+    cursor: pointer;
+    background-color: #c48509;
+    border: none;
+    border-radius: 5px;
+    color: #1A1B2F;
+}
+.admin button:hover{
+    background-color: #FFB423;
 }
 .corpo button:hover{
     background-color: #26273a;
